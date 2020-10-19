@@ -35,9 +35,9 @@ app.post("", function (req, res) {
 
 	const jsonData =  JSON.stringify(data);
 
-	var url = //"mailchimpEndpoint/mailListCode";
+	let url = //"mailchimpEndpoint/mailListCode";
 
-	 var options = {
+	 let options = {
 	 	method : "POST",
 	 	auth: //"xyz:apiKey"
 
